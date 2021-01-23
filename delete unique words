@@ -1,0 +1,13 @@
+import sys
+
+inp = sys.argv[1:]
+
+# return all elements where occurence equals 1
+uni = [x for x in inp if inp.count(x) == 1]
+
+uni.sort(reverse=True)
+
+print(*uni)
+
+Ovie.
+
